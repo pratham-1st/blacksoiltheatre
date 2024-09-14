@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+import ab1Image from '../../assets/ab1.jpg'
+import ab2Image from '../../assets/ab2.jpg'
 
 const About = () => {
   return (
@@ -26,7 +28,7 @@ const About = () => {
           <div className="about-1-right">
             <img
               className="about-1-image"
-              src="https://i.ibb.co/sVMdKJs/ab1.jpg"
+              src={ab1Image}
               alt=""
             />
           </div>
@@ -36,7 +38,7 @@ const About = () => {
           <div className="about-2-left">
             <img
               className="about-2-image"
-              src="https://i.ibb.co/dfM5NBM/ab2.jpg"
+              src={ab2Image}
               alt=""
             />
           </div>

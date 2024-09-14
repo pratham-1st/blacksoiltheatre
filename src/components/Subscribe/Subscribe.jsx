@@ -1,5 +1,6 @@
 import React from "react";
 import "./Subscribe.css";
+import logo from '../../assets/logo.png'
 
 const Subscribe = () => {
   return (
@@ -22,7 +23,7 @@ const Subscribe = () => {
         <h1 className="subscribe-text">Watch us on YouTube!</h1>
         <div className="subscribe-button">
           <img
-            src="https://i.ibb.co/KF4Gr5v/logo.png"
+            src={logo}
             alt=""
             className="subscribe-logo"
           />
