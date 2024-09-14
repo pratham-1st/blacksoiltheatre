@@ -1,0 +1,11 @@
+.copyright-container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-text{
+    font-size: 1.5vw;
+    color: rgb(114, 112, 112);
+}

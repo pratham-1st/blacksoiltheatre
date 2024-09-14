@@ -1,0 +1,57 @@
+.social-container{
+    width: 100%;
+    padding: 60px 220px 60px 220px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-text{
+    color: white;
+    font-size: max(3.5vw, 28px);   
+}
+
+.social-icons i{
+    color: white;
+    font-size: 2vw;
+    margin-right: 20px;
+    transition: 0.2s ease-out;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.social-icons{
+    padding: 15px 10px;
+}
+
+.facebook:hover{
+    color: rgb(34, 116, 167);
+    background-color: white;
+}
+
+.youtube:hover{
+    color: rgb(173, 30, 30);
+    background-color: white;
+}
+
+.instagram:hover{
+    color: rgb(174, 26, 169);
+    background-color: white;
+}
+
+.twitter:hover{
+    color: rgb(5, 21, 32);
+    background-color: white;
+}
+
+@media (max-width:750px){
+    .social-container{
+        padding: 50px;
+    }
+
+    .social-icons i{
+        font-size: 3vh;
+    }
+}

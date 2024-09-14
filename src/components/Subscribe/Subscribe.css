@@ -1,0 +1,96 @@
+.subscribe-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    margin: 30px 0px;
+}
+
+.subscribe-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+    padding: 20px;
+}
+
+.subscribe-part-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    height: 100%;
+    width: 35%;
+}
+
+.subscribe-align{
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 90px;
+}
+.youtube-video{
+   width: 70%;
+}
+
+.subscribe-logo{
+    width: 100px;
+}
+
+.subscribe-text{
+    color: white;
+}
+
+.subscribe-btn{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-btn:hover{
+    scale: 1.1;
+}
+
+@media(max-width:750px){
+    .subscribe-container{
+        flex-direction: column;
+        margin: 5px 0px 30px 0px;
+    }
+
+    .subscribe-part-1{
+        width: 100%;
+    }
+
+    .youtube-video{
+        height: 50%;
+    }
+
+    .subscribe-part-2{
+        width: 100%;
+        align-items: center;
+    }
+
+    .subscribe-text{
+        font-size: 2.5vh;
+    }
+
+    .subscribe-button{
+        flex-direction: row;
+        margin-left: 0px;
+    }   
+}
